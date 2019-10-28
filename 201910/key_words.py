@@ -3,4 +3,4 @@
 #python关键字
 
 import keyword
-print(keyword.kwlist)
+print("python关键字：",keyword.kwlist)
