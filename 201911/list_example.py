@@ -13,7 +13,13 @@ print("list2=",list2)
 #（2）访问列表
 print(list1[0:3])    #切片
 
-#（3)删除列表：实际开始时，del 语句不常用，因为 Python 自带的垃圾回收机制会自动销毁不用的列表，所以即使开发者不手动将其删除，Python 也会自动将其回收。
+#(3)修改列表中的元素
+list1[0]='a'
+print('list1=',list1)
+list1[2:]=[2,3]
+print(list1)
+
+#（4)删除列表：实际开始时，del 语句不常用，因为 Python 自带的垃圾回收机制会自动销毁不用的列表，所以即使开发者不手动将其删除，Python 也会自动将其回收。
 name = name = ["C语言中文网","http://c.biancheng.net"]
 print(name)
 del name
