@@ -2,9 +2,11 @@
 # -*- coding:utf-8 -*-
 
 #（1）创建列表
+
 #方法1：
 list1=["c.biancheng.net" , 1 , [2,3,4] , 3.0]   #列表可以存储整数、实数、字符串、列表、元组等任何类型的数据，并且和数组不同的是，在同一个列表中元素的类型也可以不同
 print("list1=",list1)
+
 #方法2：
 range1=range(3,8)
 list2=list(range1)
