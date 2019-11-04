@@ -1,17 +1,20 @@
 #!/usr/bin/env python 
 # -*- coding:utf-8 -*-
 
+#list列表，有序的，可修改，列表可以存储整数、实数、字符串、列表、元组等任何类型的数据，并且和数组不同的是，在同一个列表中元素的类型也可以不同
+
 #（1）创建列表
 #方法1：
-list1=["c.biancheng.net" , 1 , [2,3,4] , 3.0]   #列表可以存储整数、实数、字符串、列表、元组等任何类型的数据，并且和数组不同的是，在同一个列表中元素的类型也可以不同
+list1=["c.biancheng.net" , 1 , [2,3,4] , 3.0]
 print("list1=",list1)
 #方法2：
 range1=range(3,5)
 list2=list(range1)
 print("list2=",list2)
 
-#（2）访问列表
-print(list1[0:3])    #切片
+#（2）访问列表:切片
+print(list1[3])
+print(list1[0:3])
 
 #(3)修改列表中的元素
 list1[0]='a'
