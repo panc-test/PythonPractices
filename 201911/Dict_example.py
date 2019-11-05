@@ -32,7 +32,6 @@ print(dict6.get('one'))  #get方法来访问键值对
 #为了防止在获取指定键的值时，因不存在该键而导致抛出异常，在使用 get() 方法时，可以为其设置默认值，这样，即便指定的键不存在，也不回报错
 print(dict6.get('four','字典中无four键'))
 
-
 #(4)删除字典
 dict7={'one':14, 'two': 15, 'three': 16}
 print(dict7)
