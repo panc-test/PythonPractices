@@ -26,5 +26,11 @@ print(list1)
 name = name = ["C语言中文网","http://c.biancheng.net"]
 print(name)
 del name
+#del方法根据目标元素所在位置的索引值进行删除
+list4=[2,4,'gdsfd',5,3]
+del list4[1]
+print(list4)
+del list4[1:3]
+print(list4)
 
 
