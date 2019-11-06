@@ -1,11 +1,11 @@
 #!/usr/bin/env python 
 # -*- coding:utf-8 -*-
 
-#list列表，有序的，可变，列表可以存储整数、实数、字符串、列表、元组等任何类型的数据，并且和数组不同的是，在同一个列表中元素的类型也可以不同
+#list列表，有序，可变,元素不唯一可重复的
 
 #（1）创建列表
 #方法1：
-list1=["c.biancheng.net" , 1 , [2,3,4] , 3.0]
+list1=["c.biancheng.net" , 1 , [2,3,4] , 3.0,1]
 print("list1=",list1)
 #方法2：
 range1=range(3,5)

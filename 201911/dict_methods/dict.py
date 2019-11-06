@@ -1,7 +1,7 @@
 #!/usr/bin/env python 
 # -*- coding:utf-8 -*-
 
-#dict字典，无序，可变，键值对的形式，其中键是惟一的，不可变的。\
+#dict字典，无序，可变，键值对的形式，其中键是惟一的
 
 #语法：dictname = {'key':'value1','key2':'value2',...,'keyn':valuen}
 
