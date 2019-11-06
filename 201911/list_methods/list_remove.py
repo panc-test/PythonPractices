@@ -1,8 +1,11 @@
 #!/usr/bin/env python 
 # -*- coding:utf-8 -*-
 
-#remove方法根据元素的值进行删除,删除第一个和指定值相同的元素，如果找不到该元素，该方法将会引发 ValueError 错误。
+#remove() 函数用于移除列表中某个值的第一个匹配项。语法:list.remove(obj)
 
-list=['a','avf',3,22]
+list=['a','avf',3,22,'a']
 list.remove('a')
-print('list=',list)
+print(list)
+
+
+#比较pop和remove方法的差异性
