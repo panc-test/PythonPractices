@@ -4,28 +4,28 @@ Filters筛选logger对象后发送给handler
 
 import logging
 
+#创建一个logger对象
 logger1 = logging.getLogger('mylogger1')
 logger2 = logging.getLogger('mylogger2')
 
 # 创建一个handler，用于写入日志文件
 handler = logging.FileHandler('study04.log')
 
-#分别定义日志级别
+#设置输出日志级别
 logger1.setLevel(logging.DEBUG)
 logger2.setLevel(logging.INFO)
 
-#设置日志打印格式
+#设置handler输出格式
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-
-#添加打印格式
 handler.setFormatter(formatter)
 
-## 定义一个filter
+# 定义一个filter
 filter=logging.Filter('mylogger1')
 
-##添加filter样式
+#添加filter样式
 handler.addFilter(filter)
 
+#将logger添加到handler
 logger1.addHandler(handler)
 logger2.addHandler(handler)
 

@@ -4,25 +4,24 @@
 
 import logging
 
+#创建logger
 logger1 = logging.getLogger('mylogger1')
 logger2 = logging.getLogger('mylogger2')
 
-# 创建一个handler，用于写入日志文件
-handler1 = logging.FileHandler('study03.log')
-# 再创建一个handler，用于输出到控制台
-handler2 = logging.StreamHandler()
+# 创建handler
+handler1 = logging.FileHandler('study03.log')   #写入日志文件
+handler2 = logging.StreamHandler()  #输出到控制台
 
-#分别定义日志级别
+#设置输出日志级别
 logger1.setLevel(logging.DEBUG)
 logger2.setLevel(logging.INFO)
 
-#设置日志打印格式
+#设置handler输出格式
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-
-#添加打印格式
 handler1.setFormatter(formatter)
 handler2.setFormatter(formatter)
 
+##将logger添加到handler
 logger1.addHandler(handler1)
 logger2.addHandler(handler2)
 
