@@ -5,6 +5,7 @@ ddt-数据驱动模块
 
 import unittest
 from ddt import ddt,data,file_data
+import yaml
 
 @ddt
 class TestDDT(unittest.TestCase):
