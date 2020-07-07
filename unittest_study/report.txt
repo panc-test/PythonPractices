@@ -1,0 +1,9 @@
+testdemo1_01 (test_demo1.TestDemo1) ... ok
+testdemo1_02 (test_demo1.TestDemo1) ... ok
+testdemo2_01 (test_demo2.TestDemo2) ... skipped '注释：跳过测试'
+testdemo2_02 (test_demo2.TestDemo2) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.018s
+
+OK (skipped=1)
