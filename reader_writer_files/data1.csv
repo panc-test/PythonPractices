@@ -1,0 +1,5 @@
+username,password,except_val
+user1,123456,登录成功
+user1,,密码不能为空
+,123456,用户名不能为空
+xxxx,xxxx,用户名或密码有误
