@@ -13,7 +13,7 @@ class DDTTest(unittest.TestCase):
     @file_data('./data.yaml')
     def test_get_data(self,start,end,value):
 
-        #将从json文件中读到的数据存放到values中
+        #将从yaml文件中读到的数据存放到values中
         values={
             'values_start':start,
             'values_end':end,
