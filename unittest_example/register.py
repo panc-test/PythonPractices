@@ -1,8 +1,6 @@
-#!/usr/bin/env python 
-# -*- coding:utf-8 -*-
-# register.py
-
-
+"""
+被测代码
+"""
 users = [{'username': 'test', 'password': '123456'}]
 
 def register(username, password1, password2):
@@ -18,7 +16,7 @@ def register(username, password1, password2):
         if password1 != password2:
             return {"code": 0, "msg": "两次密码输入不一致！"}
         else:
-            if 6 <= len(username) >= 6 and 6 <= len(password1) <= 18:
+            if 6 <= len(username) <= 18 and 6 <= len(password1) <= 18:
                 users.append({'username': username, 'password': password2})
                 return {"code": 1, "msg": "注册成功"}
             else:
