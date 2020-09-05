@@ -1,16 +1,23 @@
 """
 程序主入口，运行测试用例，生成测试报告
-
 1、实例化一个测试套件
 2、加载测试用例到测试套件
 3、运行测试套件
 4、生成测试报告
+------------------------------------------------------
+找不到 unittest_study 解决方法
+import sys
+from os.path import abspath,dirname
+sys.path.insert(0,dirname(dirname(abspath(__file__))))
 
 """
+
 import unittest
-import unittest_test.testcases.testdemo
-from unittest_test.testcases.testcase import TestCase
-from unittest_test.testcases.testdemo import TestDemo01,TestDemo02
+import unittest_demo.testcases.test_register
+import unittest_demo.testcases.test_login
+
+from unittest_demo.testcases.test_register import TestRegister
+from unittest_demo.testcases.test_login import TestLogin
 
 
 #定义测试套件，并加载测试用例
@@ -18,14 +25,14 @@ def suite1():
     # 测试套件
     suite = unittest.TestSuite()
     #加载测试用例
-    suite.addTest(TestCase('test_01'))
-    suite.addTest(TestCase('test_02'))
+    suite.addTest(TestRegister('test01'))
+    suite.addTest(TestRegister('test02'))
     return suite
 
 #加载多个测试用例
 def suite2():
     suite = unittest.TestSuite()
-    tests = [TestCase('test_02'),TestCase('test_03'),TestDemo01('test_05')]
+    tests = [TestRegister('test02'),TestLogin('test05')]
     suite.addTests(tests)
     return suite
 
@@ -33,9 +40,7 @@ def suite2():
 def suite3():
     suite = unittest.TestSuite()
     loader = unittest.TestLoader()
-    test1 = loader.loadTestsFromTestCase(TestCase)
-    test2 = loader.loadTestsFromTestCase(TestDemo02)
-    tests = [test1,test2]
+    tests = loader.loadTestsFromTestCase(TestRegister)
     suite.addTests(tests)
     return suite
 
@@ -43,7 +48,7 @@ def suite3():
 def suite4():
     suite = unittest.TestSuite()
     loader = unittest.TestLoader()       #加载器
-    tests = loader.loadTestsFromModule(unittest_test.testcases.testdemo)
+    tests = loader.loadTestsFromModule(unittest_demo.testcases.test_login)
     suite.addTests(tests)
     return suite
 
@@ -51,7 +56,7 @@ def suite4():
 def suite5():
     suite = unittest.TestSuite()
     loader = unittest.TestLoader()       #加载器
-    tests = loader.loadTestsFromName('unittest_test.testcases.testdemo.TestDemo02')
+    tests = loader.loadTestsFromName('unittest_demo.testcases.test_register')
     suite.addTests(tests)
     return suite
 
@@ -59,14 +64,23 @@ def suite5():
 def suite6():
     suite = unittest.TestSuite()
     loader = unittest.TestLoader()       #加载器
-    tests = loader.loadTestsFromNames(['unittest_test.testcases.testcase','unittest_test.testcases.testdemo'])
+    tests = loader.loadTestsFromNames(['unittest_demo.testcases.test_register','unittest_demo.testcases.test_login'])
+    suite.addTests(tests)
+    return suite
+
+# discover()方法按照文件路径和方法名模糊查询加载测试用例
+def suite7():
+    suite = unittest.TestSuite()
+    loader = unittest.TestLoader()       #加载器
+    tests = loader.discover(start_dir='./testcases',pattern='test*.py')
     suite.addTests(tests)
     return suite
 
 
-#运行测试套件,生成测试报告
+
+# 运行测试套件,生成测试报告
 if __name__ == '__main__':
-    suite = suite6()
+    suite = suite7()
     with open(file='./report',mode='a') as file:
         runner = unittest.TextTestRunner(verbosity=2,stream=file)
         runner.run(suite)
