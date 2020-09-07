@@ -16,20 +16,20 @@ def suite():
     return suite
 
 # TextTestRunner
-# if __name__ == '__main__':
-#     suite = suite()
-#     with open(file='./report/report.txt',mode='a') as file:
-#         runner = unittest.TextTestRunner(verbosity=2,stream=file)
-#         runner.run(suite)
+if __name__ == '__main__':
+    suite = suite()
+    with open(file='./report/report.txt',mode='a') as file:
+        runner = unittest.TextTestRunner(verbosity=2,stream=file)
+        runner.run(suite)
 
 
 # HTMLTestRunner
-if __name__ == '__main__':
-    suite = suite()
-    fp = open('./report/report.html',mode='w',encoding='utf8')
-    runner=HTMLTestRunner.HTMLTestRunner(stream=fp,title='测试报告',description='这是我的测试报告',verbosity=2)
-    runner.run(suite)
-    fp.close()
+# if __name__ == '__main__':
+#     suite = suite()
+#     fp = open('./report/report.html',mode='w',encoding='utf8')
+#     runner=HTMLTestRunner.HTMLTestRunner(stream=fp,title='测试报告',description='这是我的测试报告',verbosity=2)
+#     runner.run(suite)
+#     fp.close()
 
 # BeautifulReport
 # if __name__ == '__main__':
