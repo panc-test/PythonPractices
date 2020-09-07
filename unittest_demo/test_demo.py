@@ -1,53 +1,40 @@
 '''
-unittest单元测试框架：
-1、测试脚手架 test fixture
-2、测试用例  test case
-3、测试套件  test suite
-4、测试执行器 test runner
-5、测试报告  test report
+unittest单元测试框架
 
-测试用例执行顺序：根据ASCII码的顺序加载测试用例
-0-9
-A-Z
-a-z
 '''
 
 import unittest
 
-class TestDemo(unittest.TestCase):
+class TestDemo(unittest.TestCase):  #继承TestCase类
 
-    @classmethod
-    def setUpClass(cls) -> None:
+    @classmethod    #装饰器
+    def setUpClass(cls) -> None:    #所有测试用例执行前的环境准备
         print('setUpClass')
 
     @classmethod
-    def tearDownClass(cls) -> None:
+    def tearDownClass(cls) -> None: #所有测试用例执行结束后的环境恢复
         print('tearDownClass')
 
-    def setUp(self):
+    def setUp(self):    #每条测试用例执行前执行
         print('setUp')
 
-    def tearDown(self):
+    def tearDown(self): #每条测试用例执行后执行
         print('tearDown')
 
-    @unittest.skip('跳过该条测试用例')
+    def testA(self):
+        print('testA')
+
+    def testB(self):
+        print('testB')
+
+    def testa(self):
+        print('testa')
+
     def test01(self):
         print('test01')
 
     def test02(self):
         print('test02')
-
-    def testA(self):
-        print('testA')
-
-    def testa(self):
-        print('testa')
-
-    def test03(self):
-        print('test03')
-
-    def testB(self):
-        print('testB')
 
 #程序主入口
 if __name__ == '__main__':

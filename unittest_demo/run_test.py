@@ -10,7 +10,7 @@ from BeautifulReport import BeautifulReport
 
 def suite():
     suite = unittest.TestSuite()
-    loader = unittest.TestLoader()       #加载器
+    loader = unittest.TestLoader()
     tests = loader.discover(start_dir='./testcases',pattern='test*.py')
     suite.addTests(tests)
     return suite
@@ -24,15 +24,15 @@ def suite():
 
 
 # HTMLTestRunner
-# if __name__ == '__main__':
-#     suite = suite()
-#     fp = open('./report/report.html',mode='wb')
-#     runner=HTMLTestRunner.HTMLTestRunner(stream=fp,title='测试报告',description='这是我的测试报告',verbosity=2)
-#     runner.run(suite)
-#     fp.close()
+if __name__ == '__main__':
+    suite = suite()
+    fp = open('./report/report.html',mode='w',encoding='utf8')
+    runner=HTMLTestRunner.HTMLTestRunner(stream=fp,title='测试报告',description='这是我的测试报告',verbosity=2)
+    runner.run(suite)
+    fp.close()
 
 # BeautifulReport
-if __name__ == '__main__':
-    suite=suite()
-    result=BeautifulReport(suite)
-    result.report(report_dir='./report',filename='breport.html',description='注册和登录功能测试报告')
+# if __name__ == '__main__':
+#     suite=suite()
+#     result=BeautifulReport(suite)
+#     result.report(report_dir='./report',filename='breport.html',description='注册和登录功能测试报告')
