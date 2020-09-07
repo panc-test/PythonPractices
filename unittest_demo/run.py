@@ -81,9 +81,10 @@ def suite7():
 # 运行测试套件,生成测试报告
 if __name__ == '__main__':
     suite = suite7()
-    with open(file='./report/log.txt',mode='a') as file:
+    with open(file='./report/report.txt',mode='a') as file:
         runner = unittest.TextTestRunner(verbosity=2,stream=file)
         runner.run(suite)
+        file.close()
 
 
 
