@@ -1,10 +1,10 @@
 '''
-requests-get请求
+requests_study-get请求
 1、功能查询数据，对数据库执行查询操作
 2、请求参数在url上可以看到
 '''
 
-import requests
+import requests_study
 
 #主题首页
 
@@ -18,7 +18,7 @@ params={
     'limit':1,
     'mdrender':'false'
 }
-r=requests.get(url=base_url+'/topics',params=params)
+r=requests_study.get(url=base_url + '/topics', params=params)
 
 print('服务器响应状态码：',r.status_code)
 assert r.status_code==200
