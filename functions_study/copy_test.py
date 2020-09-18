@@ -100,5 +100,4 @@ class TestFun():
             print("bett对象中的每个元素的内存地址=",id(ele))
 
 
-
 TestFun().test_deep_copy()
