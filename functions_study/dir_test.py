@@ -1,7 +1,5 @@
-#!/usr/bin/env python 
-# -*- coding:utf-8 -*-
 
-str=''
+str='啊啊啊'
 list=[1,2,'a']
 tuple=(1,'a')
 dict={'one':1,'two':2,'three':3}

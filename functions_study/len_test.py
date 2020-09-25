@@ -1,5 +1,3 @@
-#!/usr/bin/env python 
-# -*- coding:utf-8 -*-
 
 #len()函数获得字符串长度。语法:len（string）
 

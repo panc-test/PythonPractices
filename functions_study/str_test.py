@@ -1,5 +1,3 @@
-#!/usr/bin/env python 
-# -*- coding:utf-8 -*-
 
 #str()函数可以将数值型转换成字符型
 
