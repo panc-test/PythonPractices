@@ -6,6 +6,7 @@ list0 = ['b','c', 'd','b','c','a','a']
 
 #方法1：使用内置函数 set(), sorted 函数对所有可迭代的对象进行排序操作,key=list.index 可以保持原列表的顺序。
 list1 = set(list0)
+print("list1 = ",list1)
 print("list1 = ",sorted(list1,key=list0.index))
 
 #方法2：字典的{}.fromkeys()方法
