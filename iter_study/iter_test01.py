@@ -18,5 +18,4 @@ print(isinstance(list,Iterator))    #判断是否是迭代器
 
 #iter() 函数可以将可迭代对象转化成迭代器
 print(type(iter(list)))
-print(type(iter(tuple)))
-print(type(iter(str)))
+print(isinstance(iter(list),Iterator))
