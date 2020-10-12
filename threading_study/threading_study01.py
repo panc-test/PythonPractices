@@ -1,4 +1,6 @@
 """
+使用线程的2种方法：函数式和自定义封装式
+
 创建一个threading.Thread对象，参数如下：
     *group*：group参数必须为空，参数group是预留的，用于将来扩展；
     *target*: 参数target是一个可调用对象（也称为活动[activity]），在线程启动后执行
@@ -13,7 +15,7 @@ import time
 
 def test_thread():
     """
-    threading.current_thread().getName() 获取当前线程的名字,默认Thread-n 格式
+    threading.current_thread().getName() 获取当前线程的名字,默认Thread-n格式
     如果创建线程组的时候参数name有值，则取指定的name值。
     :return:
     """
@@ -25,9 +27,10 @@ def test_thread():
     time.sleep(2)
     print(threading.current_thread().getName(),time.ctime())
 
+
 if __name__ == '__main__':
     """不带参数的线程 """
-    t1 = threading.Thread(target=test_thread,name='线程1')
+    t1 = threading.Thread(target=test_thread)
     t2 = threading.Thread(target=test_thread)
     t3 = threading.Thread(target=test_thread)
     t1.start()
