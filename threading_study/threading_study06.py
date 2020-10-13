@@ -1,28 +1,23 @@
 """
-线程锁：
-参考地址：https://blog.csdn.net/weixin_40481076/article/details/101594705
+信号量（BoundedSemaphore类）
+互斥锁同时只允许一个线程更改数据，而Semaphore是同时允许一定数量的线程更改数据，
 
 """
 
-import threading
-from threading import Lock,Thread
-import time,os
+import threading,time
 
-def work():
-    global n
-    lock.acquire()  #获取线程锁
-    temp = n
-    time.sleep(0.1)
-    n = temp-1
-    lock.release()  #释放线程锁
+#最多允许2个线程同时运行
+semaphore = threading.BoundedSemaphore(2)
+
+def run():
+    semaphore.acquire()   #加锁
+    print(threading.current_thread().getName(),time.ctime())
+    time.sleep(2)
+    semaphore.release()    #释放
+
 
 if __name__ == '__main__':
-    lock = Lock()
-    n = 100
-    l = []
-    for i in range(100):
-        p = Thread(target=work)
-        l.append(p)
-        p.start()
-    for p in l:
-        p.join()
+    for _ in range(10):
+        t = threading.Thread(target=run)
+        t.start()
+
