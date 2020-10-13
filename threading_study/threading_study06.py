@@ -21,3 +21,12 @@ if __name__ == '__main__':
         t = threading.Thread(target=run)
         t.start()
 
+
+
+"""
+python多线程的缺陷：
+1、GIL-全局解释器锁
+2、无论系统CPU是几核的,只能使用一个来处理进程
+https://www.cnblogs.com/xiangsikai/p/8178729.html
+
+"""
