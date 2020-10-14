@@ -32,8 +32,9 @@ class MyThread(threading.Thread):
         print(self.name, time.ctime())
 
 if __name__ == '__main__':
-    t1 = MyThread(name='线程1')
-    t2 = MyThread(name='线程2')
-    t1.start()
-    t2.start()
+    for i in range(3):
+        t = MyThread(name="线程-%s"%i)
+        t.start()
+
+
 
