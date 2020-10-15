@@ -1,4 +1,18 @@
+"""
+程序主入口，运行测试用例，生成测试报告
+1、实例化一个测试套件
+2、加载测试用例到测试套件
+3、运行测试套件
+4、生成测试报告
 
+"""
+"""
+找不到 unittest_demo 解决方法
+import sys
+from os.path import abspath,dirname
+sys.path.insert(0,dirname(dirname(abspath(__file__))))
+
+"""
 import unittest
 
 

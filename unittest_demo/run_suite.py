@@ -1,26 +1,19 @@
 """
-程序主入口，运行测试用例，生成测试报告
-1、实例化一个测试套件
-2、加载测试用例到测试套件
-3、运行测试套件
-4、生成测试报告
-------------------------------------------------------
-找不到 unittest_study 解决方法
+测试套件加载测试用例的方法
+
+"""
 import sys
 from os.path import abspath,dirname
 sys.path.insert(0,dirname(dirname(abspath(__file__))))
 
-"""
-
 import unittest
 import unittest_demo.testcases.test_register
 import unittest_demo.testcases.test_login
-
 from unittest_demo.testcases.test_register import TestRegister
 from unittest_demo.testcases.test_login import TestLogin
 
 
-#定义测试套件，并加载测试用例
+#加载单个测试用例
 def suite1():
     # 测试套件
     suite = unittest.TestSuite()
@@ -76,12 +69,10 @@ def suite7():
     suite.addTests(tests)
     return suite
 
-
-
 # 运行测试套件,生成测试报告
 if __name__ == '__main__':
-    suite = suite7()
-    with open(file='./report/areport.txt',mode='a') as file:
+    suite = suite4()
+    with open(file='./report/suite_report.txt',mode='a') as file:
         runner = unittest.TextTestRunner(verbosity=2,stream=file)
         runner.run(suite)
         file.close()

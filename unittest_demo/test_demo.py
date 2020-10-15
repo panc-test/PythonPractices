@@ -1,42 +1,43 @@
-'''
-unittest单元测试框架
-
-'''
 
 import unittest
 
-class TestDemo(unittest.TestCase):  #继承TestCase类
+class  TestSkip(unittest.TestCase):
 
-    @classmethod    #装饰器
-    def setUpClass(cls) -> None:    #所有测试用例执行前的环境准备
+    @classmethod
+    def setUpClass(cls) -> None:
         print('setUpClass')
 
     @classmethod
-    def tearDownClass(cls) -> None: #所有测试用例执行结束后的环境恢复
+    def tearDownClass(cls) -> None:
         print('tearDownClass')
 
-    def setUp(self):    #每条测试用例执行前执行
+    def setUp(self):
         print('setUp')
 
-    def tearDown(self): #每条测试用例执行后执行
+    def tearDown(self):
         print('tearDown')
 
-    def testA(self):
-        print('testA')
+    @unittest.skip('跳过该条测试用例')
+    def test_01(self):
+        print('test_01')
 
-    def testB(self):
-        print('testB')
+    @unittest.skipIf(2>1,'条件为真，跳过该条测试用例')
+    def test_02(self):
+        print('test_02')
 
-    def testa(self):
-        print('testa')
+    @unittest.skipUnless(2>3,'条件为不为真，跳过该条测试用例')
+    def test_03(self):
+        print('test_03')
 
-    def test01(self):
-        print('test01')
+    @unittest.expectedFailure
+    def test_04(self):
+        print('test_04')
 
-    def test02(self):
-        print('test02')
+    def test_05(self):
+        print('test_05')
 
-#程序主入口
+
 if __name__ == '__main__':
     unittest.main(verbosity=2)
+
 
