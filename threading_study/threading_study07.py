@@ -16,16 +16,16 @@ event = threading.Event()
 def run():
     while not event.isSet():
         print(threading.current_thread().getName(), time.ctime())
-        time.sleep(1)
-    event.wait(timeout=5)   #阻塞线程，为什么timeout=5没起到作用
+        time.sleep(5)
+    event.wait(timeout=10)  # 阻塞线程，为什么timeout=10没起到作用
 
 if __name__ == '__main__':
     #使用多线程去调用run
-    for i in range(3):
+    for i in range(10):
         th = threading.Thread(target=run)
         th.start()
-    #阻塞5s后运行主线程
-    time.sleep(5)
+    #阻塞30s后运行主线程
+    time.sleep(30)
     event.set()
 
 

@@ -12,7 +12,7 @@ lock = threading.Lock()
 def run():
     lock.acquire()  #获取锁
     print(threading.current_thread().getName(),time.ctime())
-    time.sleep(2)
+    time.sleep(5)
     lock.release()  #释放锁
 
 for _ in range(10):

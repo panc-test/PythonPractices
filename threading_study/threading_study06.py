@@ -10,19 +10,20 @@
 import threading,time
 
 #设置信号量的边界值
-# semaphore = threading.Semaphore(5)
-semaphore = threading.BoundedSemaphore(value=5)
+semaphore = threading.BoundedSemaphore(value=3)
 
 def run():
     semaphore.acquire()   #加锁
     print(threading.current_thread().getName(),time.ctime())
-    time.sleep(2)
+    time.sleep(5)
     semaphore.release()    #释放
 
 if __name__ == '__main__':
     for _ in range(10):
         t = threading.Thread(target=run)
         t.start()
+    #返回Thread当前所有活动对象的列表。通过运行结果我们可以看出系统是先一次性创建10个线程，然后根据信号量边界值3，一次性运行3个线程，其他线程等待锁。
+    print(threading.enumerate())
 
 
 """

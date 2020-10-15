@@ -11,24 +11,22 @@ lock = threading.RLock()
 
 # run1第二道锁
 def run1():
-    lock.acquire()
-    print("run1",threading.current_thread().getName(),time.ctime())
-    lock.release()
+    with lock:  #在with语句中使用锁，条件和信号量
+        print("run1",threading.current_thread().getName(),time.ctime())
 
 # run2第三道锁
 def run2():
-    lock.acquire()
-    print("run2",threading.current_thread().getName(),time.ctime())
-    lock.release()
+    with lock:
+        print("run2",threading.current_thread().getName(),time.ctime())
 
 # run3相当于第一道锁
 def run3():
     lock.acquire()
-    res = run1()
-    time.sleep(1)
+    run1()
+    time.sleep(5)
     print("run3",threading.current_thread().getName(),time.ctime())
-    time.sleep(1)
-    res2 = run2()
+    time.sleep(5)
+    run2()
     lock.release()
 
 # 循环开启10个线程
