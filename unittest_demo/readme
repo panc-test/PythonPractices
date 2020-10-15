@@ -1,0 +1,8 @@
+这是一个使用unittest的简单的demo
+
+report: 测试报告
+testcases:测试用例
+run.py:程序主入口
+run_suite.py：测试套件加载测试用例的几种方法
+run_report.py:生成txt,html格式测试报告方法
+test_demo.py:一个简单的demo
