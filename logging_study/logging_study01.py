@@ -17,7 +17,7 @@ logging.critical('this is cirtical message')
 
 
 '''
-logging.basicConfig函数各参数:
+logging_study.basicConfig函数各参数:
 
 level: 设置日志级别，默认为logging.WARNING,低于该级别的就不输出了，这时候，如果需要显示低于WARNING级别的内容，可以引入NOTSET级别来显示。
     日志级别排序:CRITICAL > ERROR > WARNING > INFO > DEBUG
