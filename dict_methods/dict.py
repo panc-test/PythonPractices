@@ -9,6 +9,7 @@
 #方法1：
 dict1 = {'语文': 89, '数学': 92, '英语': 93}
 print(dict1)
+print(dict1.keys())
 #方法2：使用 dict 字典类型提供的 fromkeys() 方法创建所有键值为空的字典，种创建方式，通常用于初始化字典，设置 value 的默认值。
 knowledge = {'语文', '数学', '英语'}
 dict2 = dict.fromkeys(knowledge)
