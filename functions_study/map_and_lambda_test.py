@@ -15,6 +15,6 @@ list = [1, 2, 3, 4]
 #     new_list.append(i)
 # print(new_list)
 
-#方法2 列表推导式 格式： [function for i in iterable if条件 ]
+#方法2 列表推导式 格式： [表达式 for i in iterable if条件 ]
 new_list = [i**2 for i in list]
 print(new_list)
