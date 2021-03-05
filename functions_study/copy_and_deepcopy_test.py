@@ -1,9 +1,8 @@
 """
-对象赋值，浅拷贝，深拷贝分析
+可变对象，不可变对象的赋值，浅拷贝，深拷贝
 
 """
 import copy
-
 
 will = ["Will", 28, ["Python", "C#", "JavaScript"]]
 
@@ -71,7 +70,7 @@ class TestFun():
 
     def test_deep_copy(self):
         """
-        深拷贝：完全拷贝了父对象及其子对象，两者是完全独立的。
+        深拷贝：完全拷贝了父对象及其子对象，两者是完全独立的,开辟新的内存地址。
         :return:
         """
         bett = copy.deepcopy(will)
