@@ -1,7 +1,8 @@
 """
-创建线程的方法一：
-创建一个threading.Thread()对象，参数如下：
-_init__(self, group=None, target=None, name=None,args=(), kwargs=None, *, daemon=None)
+创建线程方法
+（1）格式：
+threading.Thread(group=None, target=None, name=None,args=(), kwargs=None, *, daemon=None)
+（2）参数介绍：
 group：group参数必须为空，参数group是预留的，用于将来扩展；
 target: 参数target是一个可调用对象（也称为活动[activity]），在线程启动后执行
 name: 参数name是线程的名字。默认值为“Thread-N“，N是一个数字。
