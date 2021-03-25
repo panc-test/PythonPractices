@@ -15,6 +15,7 @@ python基础数据类型-字符串 string(不可变数据类型)
 str = "String"
 
 print(str + '-20210325')
+print(str*3)
 print(str[0])
 print('Str\ning')
 print(r'Str\ning')
