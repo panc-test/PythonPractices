@@ -1,5 +1,5 @@
 """
-python基础数据类型——集合 set(可变，不重复，无序的)
+python基础数据类型——集合 set(可变，无序的，不重复)
 集合方法：
 增：add,update
 删：remove,dicard,pop

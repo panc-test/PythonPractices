@@ -13,6 +13,7 @@ python基础数据类型 ——列表 list(可变，有序的，可重复的)
 创建列表
 1.使用 [] 创建
 2.使用 list() 函数创建，参数可以是字符串，range对象等可迭代对象iterable
+3.列表推导式
 
 """
 # list1 = [1,2,2,5,3,4]
@@ -21,6 +22,10 @@ python基础数据类型 ——列表 list(可变，有序的，可重复的)
 # print(list1)
 # print(list2)
 # print(list3)
+
+#推导式
+# list1 = [i for i in range(5)]
+# print(list1)
 
 """
 访问列表中的元素——索引，切片  

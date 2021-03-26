@@ -1,4 +1,6 @@
 python基本数据类型                                        特点
+1.列表，元组，集合，字典特性图
+2.列表，元组，集合，字典方法图
 
 Number（数字）-- int、float、bool、complex（复数）         不可变
 String（字符串）                                          不可变

@@ -1,5 +1,5 @@
 """
-python基础数据类型——元组 tuple(不可变)
+python基础数据类型——元组 tuple(不可变，有序的，可重复的)
 
 """
 
@@ -11,10 +11,10 @@ python基础数据类型——元组 tuple(不可变)
 当创建的元组中只有一个字符串类型的元素时，该元素后面必须要加一个逗号','，否则 Python 解释器会将它视为字符串。
 
 """
-# tup1 = (1,2,3,4)
-# tup2 = tuple('hello')
-# print(tup1)
-# print(tup2)
+tup1 = (1,2,3,4,2)
+tup2 = tuple('hello')
+print(tup1)
+print(tup2)
 
 
 # tup1 = ('ab',)
