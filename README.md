@@ -12,7 +12,7 @@ number_str_list_tuple_set_dict_study    基础数据类型
 网络编程
 数据库
 异常处理机制
-垃圾回收
+垃圾回收机制
 模块
 第三方模块
 人工智能
