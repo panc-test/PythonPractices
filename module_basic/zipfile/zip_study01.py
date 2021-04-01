@@ -11,9 +11,9 @@ zipfile.ZipFile(file, mode='r', compression=ZIP_STORED, allowZip64=True, compres
 from zipfile import ZipFile
 
 #创建一个空的压缩文件,并将指定文件添加到压缩包
-file_name='./new.zip'
+file_name= 'new.zip'
 myzip=ZipFile(file=file_name,mode='w')
-file_name='./test.txt'
+file_name= 'test.txt'
 myzip.write(filename=file_name)
 #将zip文档内的信息打印到控制台上。
 myzip.printdir()

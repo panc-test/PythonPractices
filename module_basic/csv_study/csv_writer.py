@@ -10,7 +10,7 @@ def writer1():
     rows = [('user1', '123456', '登录成功'), ('user1', '', '密码不能为空'), ('', '123456', '用户名不能为空'),
             ('xxxx', 'xxxx', '用户名或密码有误')]
 
-    with open('data2.csv',encoding='utf8', mode='w',newline='') as f:
+    with open('data2.csv', encoding='utf8', mode='w', newline='') as f:
         csv_writer = csv.writer(f)
         csv_writer.writerow(headers)
         csv_writer.writerows(rows)
@@ -23,7 +23,7 @@ def writer2():
             {"username": "", "password": "123456", "except_val": "用户名不能为空"},
             {"username": "xxxxx", "password": "xxxx", "except_val": "用户名或密码有误"}]
 
-    with open('data3.csv',encoding='utf8', mode='w',newline='') as f:
+    with open('data3.csv', encoding='utf8', mode='w', newline='') as f:
         csv_writer = csv.DictWriter(f,headers)
         csv_writer.writeheader()
         csv_writer.writerows(rows)

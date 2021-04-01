@@ -5,7 +5,7 @@ ZipFile-读取指定的zip压缩文件
 from zipfile import ZipFile
 
 
-file_name='./new.zip'
+file_name= 'new.zip'
 myzip=ZipFile(file=file_name,mode='r')
 myzip.printdir()
 
