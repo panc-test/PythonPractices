@@ -8,7 +8,6 @@ from faker import Faker
 
 #实例化对象，简体中文
 fake=Faker('zh_CN')
-
 #设置seed值,可以保持每次执行程序取到的值是一致的
 fake.random.seed(1)
 # Faker.seed(0)
