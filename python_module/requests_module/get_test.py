@@ -2,6 +2,9 @@
 get请求
 1、功能查询数据，对数据库执行查询操作
 2、请求参数在url上可以看到
+接口地址：
+https://www.juhe.cn/docs
+http://hn216.api.yesapi.cn/docs.php
 
 '''
 import requests
