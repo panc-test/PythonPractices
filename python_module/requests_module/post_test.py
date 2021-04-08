@@ -7,16 +7,16 @@ post请求
 '''
 import requests
 
-url = 'http://apis.juhe.cn/mobile/get'
-token = '80b11be8-cb8f-470a-9f7a-e415a8f1b3be'
+url = 'https://cnodejs.org/api/v1/topics'
+token = '693fe588-3168-41a2-90f6-729071ec7303'
 body={
     'accesstoken':token,
-    'title':'panc-xxxxxxxxx',
+    'title':'test-测试下一会就删',
     'content':'dhhhhhhhhhhhj',
     'tab':'ask'
 }
 #post请求的参数可以有2种数据格式
-r=requests.post(url=url, data=None, json=body)
+r=requests.post(url=url,json=body)
 
 assert r.status_code == 200
 print(r.json())
