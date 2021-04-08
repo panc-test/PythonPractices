@@ -62,7 +62,7 @@ python基础数据类型-字符串 string(不可变数据类型)
 
 
 """
-转义字符：
+转义字符：\n
 
 """
 # #换行
@@ -76,23 +76,54 @@ python基础数据类型-字符串 string(不可变数据类型)
 
 
 
+"""----------------------字符串内置方法---------------------------------------------------"""
+
+"""
+格式化字符：
+1.使用占位符 % 格式化
+2.使用.format()方法格式化  ----这里不做介绍，后面字符串内置方法会相信介绍。
+
+"""
+# name = "C语言中文网"
+# age = 8
+# url = "http://c.biancheng.net/"
+# #一个占位符
+# print("C语言中文网已经%d岁了！" % age)
+# #多个占位符
+# print("%s已经%d岁了，它的网址是%s。" % (name, age, url))
+
+
+
+"""
+正则表达式：
+语法：r'正则表达式' ,r是非转义字符
+功能：检查一个字符串是否与某种模式匹配。
+模块：re
+注意：
+这里只简单的看下使用正则表达式处理字符串，关于正则表达式的用法后续会详细学习。
+
+"""
+# import re
+# str = "a123b"
+# print(re.findall(r"a(.+?)b", str))  # 匹配字符串a到b之间的所有字符
+
 
 """
 函数操作：
-len()：返回字符串长度
-str(x)：返回任意类型x对应的字符串。
-repr(x)：将传入参数x变成字符串。就是在x两侧加上双引号。和eval相反
-eval(x)：将x两侧的双引号去除。和repr相反
-chr(x)：将ASCII码转换成字符串返回。 传入参数为ASCII码
-ord(x)：将字符串转换成ASCII码返回。仅接收长度为1的字符串参数
+len(string)：返回字符串长度
+str(object)：将object转换成string类型，给人看
+repr(object)：将object转换成string类型，给机器看
+eval()：执行一个字符串表达式，并返回表达式的值。
 
 """
-
-
-
-
-
-
+# a = 100
+# b = str(a)
+# c = repr(a)
+# d = eval(c)
+#
+# print(b,type(b))
+# print(c,type(c))
+# print(d,type(d))
 
 
 
@@ -118,7 +149,7 @@ format() 方法。
 
 """
 # #一个参数
-# print('{}'.format('this is example'))
+# print('this {} example'.format('is'))
 # #多个参数，不指定位置，按默认顺序
 # print('{} {}'.format('hello','world'))
 # #多个参数，设置指定位置
