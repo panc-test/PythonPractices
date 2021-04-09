@@ -1,11 +1,19 @@
 PYTHON基础 —— 目录介绍：
-number_str_list_tuple_set_dict_study    基础数据类型
+
+基础数据类型  python_basic_data_type  
+内置函数    python_functions
+内置关键字   python_keywords
+
+
+
+
+
 运算符 转义字符
 基础语法（对象，类，方法，变量）
 数据类型转换
 文件操作
 流程控制语句（条件语句）
-内置函数
+
 算法
 正则表达式
 多线程
