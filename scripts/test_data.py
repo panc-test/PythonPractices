@@ -10,7 +10,7 @@ import random
 
 
 #生成name
-f = Faker(locale='zh_CN')
+f = Faker(locale='zh_CN')   #生成的name有重复值
 name_list = []
 for _ in range(50000):
     name_list.append(f.name())
