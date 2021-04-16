@@ -1,11 +1,14 @@
 PYTHON基础 —— 目录介绍：
 
+基础语法（对象，类，方法，变量）    python_basics
 基础数据类型  python_basic_data_type  
 内置函数    python_functions
 内置关键字   python_keywords
+内置模块和第三方模块  python_module
+
 
 运算符 转义字符
-基础语法（对象，类，方法，变量）
+
 数据类型转换
 文件操作
 流程控制语句（条件语句）

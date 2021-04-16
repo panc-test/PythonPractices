@@ -5,6 +5,10 @@ pytest - 单元测试模块
 2.pytest.mian([])
 
 """
+import configparser
+
+config = configparser.ConfigParser
+config.read('config.ini',encoding="utf-8")
 import pytest
 
 #被测函数
