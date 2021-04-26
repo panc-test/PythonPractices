@@ -129,17 +129,21 @@ eval()：执行一个字符串表达式，并返回表达式的值。
 
 """
 字符串编码解码：
-1.encode() 方法编码。
-2.decode() 方法解码。
+1.encode() 方法编码。将人类可识别的字符转换为机器可识别的字节码 / 字节序列
+2.decode() 方法解码。编码的反向过程叫解码
 
 """
-# str = "中文网"
-# #编码
-# a = str.encode(encoding='UTF-8')
-# print(a,type(a))
-# #解码
-# b = a.decode()
-# print(b,type(b))
+# info = 'hello 你好'
+#
+# result = info.encode(encoding='UTF-8') # 以UTF-8规则进行编码
+# print(result)
+#
+# actual = result.decode(encoding='UTF-8')# 以UTF-8规则进行解码，得到正确结果
+# print(actual)
+#
+# actual = result.decode(encoding='gbk') # 以gbk规则进行解码，得到错误结果
+# print(actual)
+#
 
 
 """
