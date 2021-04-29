@@ -1,20 +1,20 @@
 """
-装饰器
-定义：
-拓展原函数功能的一种函数，返回值也是一个函数。
-特点：
-在不改变原函数代码的前提下，给原函数增加新的功能，极大地复用了代码，让我们的代码更简短。使用时只需要在函数前加上@demo即可。
+装饰器：拓展原函数功能的一种函数，返回值也是一个函数。
 
 """
-#通用的装饰器
-def debug(func):    # 装饰器函数
-    def wrapper(*args,**kwargs):   # 接受列表，元组，字典
-        print("[DEBUG]: enter {}".format(func.__name__))    # 装饰器函数的处理
-        return func(*args,**kwargs)     # 被装饰函数的引用
-    return wrapper
+# 通用装饰器
+def funA(fun):     # 装饰器函数
+    print("A")
 
-@debug
-def test(eles):   # 被装饰函数
-    print("hello {}".format(eles))
+    def innerA(*args,**kwargs):  # 接受原函数传参列表，元组，字典
+        print(fun.__name__)    # 打印原函数名
+        fun(*args,**kwargs)   # 运行原函数
 
-test("world")
+    return innerA   # 闭包，外部函数返回值是内部函数
+
+@funA
+def funB():     # 原函数
+    print("B")
+
+# 注意这里 funB()函数没有return，默认return None
+print(funB())

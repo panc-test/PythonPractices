@@ -302,3 +302,9 @@ endswith() 方法用于检索字符串是否以指定字符串结尾，如果是
 # print(str.endswith('th'))
 
 
+"""
+isdigit() 判断字符串是否由数字组成，返回 True or False
+
+"""
+# str1 = '123a'
+# print(str1.isdigit())

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "E:/github/python/python_module/traceback_module/exception_test.py", line 16, in <module>
+    fun1()
+  File "E:/github/python/python_module/traceback_module/exception_test.py", line 7, in fun1
+    fun2()
+  File "E:/github/python/python_module/traceback_module/exception_test.py", line 10, in fun2
+    fun3()
+  File "E:/github/python/python_module/traceback_module/exception_test.py", line 13, in fun3
+    raise Exception("抛出异常，可以自定义异常")
+Exception: 抛出异常，可以自定义异常
