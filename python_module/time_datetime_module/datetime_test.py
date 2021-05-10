@@ -24,22 +24,22 @@ import datetime
 
 
 
-# time 时间类，包含时、分、秒、微秒。精确到微秒，而且可以具有时区(tzinfo)属性。
-print("***这是类方法***")
-print(datetime.time)
-
-print("***这是实例方法***")
-t = datetime.time(17,47,50)
-print(t.hour)
-print(t.isoformat())    # 返回一个iso格式的时间字符串
-print(t.strftime('%H:%M:%S %p'))    # 返回一个自定义格式的时间字符串
+# # time 时间类，包含时、分、秒、微秒。精确到微秒，而且可以具有时区(tzinfo)属性。
+# print("***这是类方法***")
+# print(datetime.time)
+#
+# print("***这是实例方法***")
+# t = datetime.time(17,47,50)
+# print(t.hour)
+# print(t.isoformat())    # 返回一个iso格式的时间字符串
+# print(t.strftime('%H:%M:%S %p'))    # 返回一个自定义格式的时间字符串
 
 
 
 
 # # datetime 日期时间类，包含date和time的所有信息
 # print("***这是类方法***")
-# print(datetime.datetime.year)
+# print(datetime.datetime)
 # print(datetime.datetime.today())
 # print(datetime.datetime.now())      # 返回当前本地时间
 # print(datetime.datetime.utcnow())   # 返回当前utc时间
@@ -54,3 +54,5 @@ print(t.strftime('%H:%M:%S %p'))    # 返回一个自定义格式的时间字符
 # print(t.ctime())    # 返回一个ctime格式的日期时间字符串
 # print(t.isoformat())    # 返回一个iso格式的日期时间字符串
 # print(t.strftime("%Y-%m-%d"))
+
+
