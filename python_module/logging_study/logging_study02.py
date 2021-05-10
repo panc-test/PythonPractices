@@ -18,6 +18,7 @@ handler.setLevel(logging.ERROR)
 
 #设置日志格式
 formatter=logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
 handler.setFormatter(formatter)
 
 #给logger对象添加日志去向
