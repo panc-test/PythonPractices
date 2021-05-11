@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Cnode_API/.idea/Conde_API.iml" filepath="$PROJECT_DIR$/../Cnode_API/.idea/Conde_API.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/PythonPractices.iml" filepath="$PROJECT_DIR$/.idea/PythonPractices.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../智能机器人项目/passart-runner-api/.idea/passart-runner-api.iml" filepath="$PROJECT_DIR$/../../智能机器人项目/passart-runner-api/.idea/passart-runner-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/python-test.iml" filepath="$PROJECT_DIR$/.idea/python-test.iml" />
     </modules>
   </component>
 </project>
