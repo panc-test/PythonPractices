@@ -56,3 +56,20 @@ import datetime
 # print(t.strftime("%Y-%m-%d"))
 
 
+
+
+# # timedelta 时间差
+# era_time = datetime.datetime.fromtimestamp(0)
+# now_time = datetime.datetime.now()
+# print(era_time)
+# print(now_time)
+# #计算当前时间到纪元时间的时间差
+# delta_time = now_time - era_time
+# print(type(delta_time))
+# print(delta_time)
+# print(delta_time.days)  # 差了多少天
+# #当前日期往后加一天
+# new_time = now_time + datetime.timedelta(days=1)
+# print(type(new_time))
+# print(new_time)
+
