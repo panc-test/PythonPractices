@@ -8,12 +8,3 @@ def fun():
 
 print(fun)
 print(fun())
-
-
-
-def outer(x):   # 外部函数
-
-    def inner(y):   #内部函数
-        return x+y
-
-    return inner    #外函数返回值是内函数
