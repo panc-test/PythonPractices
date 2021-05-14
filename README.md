@@ -1,36 +1,35 @@
-PYTHON基础 —— 目录介绍：
+目录：
+python_basics   基础
+    python_data_type    基础数据类型（数字，字符串，列表，元组，集合，字典，序列）
+    python_functions    内置函数    
+    python_process_control  流程控制
+    pythhon_object  面向对象（类，方法，属性，变量等）
+    python_decorator    装饰器
+    python_module   内置模块和第三方模块
 
-基础语法（对象，类，方法，变量）    python_basics
-基础数据类型  python_basic_data_type  
-内置函数    python_functions
-内置关键字   python_keywords
-内置模块和第三方模块  python_module
 
-
-运算符 转义字符
-
-数据类型转换
-文件操作
-流程控制语句（条件语句）
-异常处理机制 traceback
-垃圾回收机制
-
-算法
+运算符 
+转义字符
 正则表达式
-多线程
-Django
+迭代器，生成器
+文件操作
+数据库操作
+算法 
+多线程 
+Django 
 网络编程
-数据库
-
-模块
-第三方模块
-人工智能
 大数据
+人工智能 
 
 
 
-C语言中文网：
-http://c.biancheng.net/python/
+推荐学习网站：
+python官方教程：https://docs.python.org/3/
+python源码地址：https://github.com/python/cpython：
+菜鸟教程： https://www.runoob.com/python3/python3-tutorial.html
+C语言中文网： http://c.biancheng.net/python/
+python123：https://www.python123.io/
 
-菜鸟教程：
-https://www.runoob.com/python3/python3-tutorial.html
+
+教你阅读python开源项目源代码：
+https://zhuanlan.zhihu.com/p/22275595
