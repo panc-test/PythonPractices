@@ -6,7 +6,7 @@ pythhon_object  面向对象（类，方法，属性，变量等）
 运算符
 转义字符
 正则表达式
-迭代器，生成器
+python_iter     迭代器，生成器
 python_decorator    装饰器
 python_module   内置模块和第三方模块
 文件操作
@@ -16,7 +16,9 @@ python_module   内置模块和第三方模块
 Django 
 网络编程
 大数据
-人工智能 
+人工智能
+study_script    刷题脚本
+work_script     工作中写过一些小脚本
 
 
 

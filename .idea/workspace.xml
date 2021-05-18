@@ -2,10 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea65de74-0375-4d9d-bb99-09e9e0f06816" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pythhon_object/attribute_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythhon_object/class_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythhon_object/method_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_functions/map_filter_lambda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_object/object_inherit_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_object/object_memory_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_script/check_str.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work_script/cookies.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/filter_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/map_lambda_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/type_isinstance_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_functions/isinstance_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_object/object_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_object/object_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/for_test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_script/for_test01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/list_test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_script/list_test01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/list_test02.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_script/list_test02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/readme" beforeDir="false" afterPath="$PROJECT_DIR$/study_script/readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/rob.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_script/rob.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/shuixianhuashu_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_script/shuixianhuashu_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/test_threading.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_script/test_threading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cookies.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cookies_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/work_script/get_cookies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/work_script/data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/redme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/rpt_intention_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/work_script/rpt_intention.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/work_script/test_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +44,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1sNXaoLRDL7aKpK6qDvaLrDf60U" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -33,11 +63,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../语音机器人/passart-runner-api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../语音机器人/lvwenhui/raptor" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager">
-    <configuration name="class_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\github-projects\python-test\python_basics" />
+      <recent name="E:\github-projects\python-test\python_keyword" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.map_filter_lambda (1)">
+    <configuration name="lambda_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -45,11 +81,116 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythhon_object" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_functions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythhon_object/class_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_functions/lambda_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lambda_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\github-projects\python-test\python_functions\lambda_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="map_filter_lambda (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_functions/map_filter_lambda.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="map_filter_lambda" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\github-projects\python-test\python_functions\map_filter_lambda.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="map_filter_lambda" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\github-projects\python-test\python_functions\map_filter_lambda.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="object_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_object" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_object/object_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -60,7 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.class_test" />
+        <item itemvalue="Python.map_filter_lambda (1)" />
+        <item itemvalue="Python.lambda_test (1)" />
+        <item itemvalue="Python.map_filter_lambda" />
+        <item itemvalue="Python.map_filter_lambda" />
+        <item itemvalue="Python.lambda_test" />
       </list>
     </recent_temporary>
   </component>
@@ -85,5 +230,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

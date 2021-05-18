@@ -3,8 +3,7 @@
 
 """
 # 读取存放cookies的文件
-
-def get_cookies():
+def get_my_cookies():
     """
     read the cookies file,get dict type cookies
 

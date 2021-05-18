@@ -3,7 +3,7 @@
 
 """
 import requests
-import cookies_test
+import get_cookies
 import unittest
 
 
@@ -14,7 +14,7 @@ class TestIntention(unittest.TestCase):
 
     """
     # 获取cookies
-    my_cookies = cookies_test.get_cookies()
+    my_cookies = get_cookies.get_my_cookies()
 
     def test_find_intention(self):
         # 意图列表查询
