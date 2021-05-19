@@ -10,6 +10,7 @@ python_iter     迭代器，生成器
 python_decorator    装饰器
 python_module   内置模块和第三方模块
 文件操作
+Python自带内存分配和释放机制
 数据库操作
 算法 
 多线程 

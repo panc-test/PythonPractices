@@ -2,32 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea65de74-0375-4d9d-bb99-09e9e0f06816" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python_functions/map_filter_lambda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_object/object_inherit_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_object/object_memory_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_script/check_str.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_script/cookies.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_builtins_functions/abs_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_builtins_functions/enumerate_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_builtins_functions/function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_builtins_functions/help_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_builtins_functions/id_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_builtins_functions/int_float_complex_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_builtins_functions/str_repr_ascii_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_builtins_functions/test_datas/test_exec.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_module/math_module/math_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_module/random_module/random_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_functions/filter_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_functions/map_lambda_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_functions/type_isinstance_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_functions/isinstance_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_object/object_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_object/object_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/for_test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_script/for_test01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/list_test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_script/list_test01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/list_test02.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_script/list_test02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/readme" beforeDir="false" afterPath="$PROJECT_DIR$/study_script/readme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/rob.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_script/rob.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/shuixianhuashu_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_script/shuixianhuashu_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/test_threading.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_script/test_threading.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/cookies.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/cookies_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/work_script/get_cookies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/work_script/data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/redme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/rpt_intention_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/work_script/rpt_intention.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/work_script/test_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_data_type/str_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_data_type/str_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_decorator/decorator_property.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_decorator/decorator_property.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/abs_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/all_any_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_builtins_functions/all_any_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/args_kwargs_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/args_kwargs_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/bin_oct_hex_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_builtins_functions/bin_oct_hex_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/bool_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_builtins_functions/bool_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/chr_ord_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_builtins_functions/chr_ord_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/copy_and_deepcopy_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_module/copy_module/copy_and_deepcopy_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/copy_deepcopy_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_module/copy_module/copy_deepcopy_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/dir_help_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_builtins_functions/dir_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/eval_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_builtins_functions/eval_exec_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python_builtins_functions/divmod_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/float_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/hasattr_getsattr_setsattr_delsattr_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_builtins_functions/hasattr_getattr_setattr_delattr_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/id_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/in_not in_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/init_new_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_object/init_new_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/isinstance_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_builtins_functions/isinstance_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/len_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_builtins_functions/len_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/map_filter_lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_builtins_functions/map_filter_lambda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/math_random_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/max_min_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_builtins_functions/max_min_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/open_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_builtins_functions/open_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/set_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_builtins_functions/set_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/sort_sorted_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_builtins_functions/sort_sorted_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/str_repr_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_functions/upper_lower_test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,12 +82,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\github-projects\python-test\python_module\random_module" />
+      <recent name="E:\github-projects\python-test\python_module" />
+      <recent name="E:\github-projects\python-test\python_object" />
       <recent name="E:\github-projects\python-test\python_basics" />
-      <recent name="E:\github-projects\python-test\python_keyword" />
+      <recent name="E:\github-projects\python-test\python_module\copy_module" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.map_filter_lambda (1)">
-    <configuration name="lambda_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.eval_exec_test">
+    <configuration name="divmod_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_functions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_builtins_functions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_functions/lambda_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_builtins_functions/divmod_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lambda_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="enumerate_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_functions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_builtins_functions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\github-projects\python-test\python_functions\lambda_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_builtins_functions/enumerate_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="map_filter_lambda (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="eval_exec_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +140,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_functions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_builtins_functions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_functions/map_filter_lambda.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_builtins_functions/eval_exec_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_builtins_functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_builtins_functions/function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,7 +195,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="map_filter_lambda" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="upper_lower_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,32 +203,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_functions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_builtins_functions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\github-projects\python-test\python_functions\map_filter_lambda.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="object_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_object" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_object/object_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_builtins_functions/upper_lower_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.map_filter_lambda (1)" />
-        <item itemvalue="Python.lambda_test (1)" />
-        <item itemvalue="Python.map_filter_lambda" />
-        <item itemvalue="Python.map_filter_lambda" />
-        <item itemvalue="Python.lambda_test" />
+        <item itemvalue="Python.eval_exec_test" />
+        <item itemvalue="Python.enumerate_test" />
+        <item itemvalue="Python.divmod_test" />
+        <item itemvalue="Python.function" />
+        <item itemvalue="Python.upper_lower_test" />
       </list>
     </recent_temporary>
   </component>

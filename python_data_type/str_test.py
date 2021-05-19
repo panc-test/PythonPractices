@@ -197,19 +197,20 @@ format() 方法。
 
 """
 大小写转换：
-1.capitalize() 将字符串的第一个字母变成大写,其他字母变小写。
-2.title() 方法用于将字符串中每个单词的首字母转为大写，其他字母全部转为小写。
-3.upper() 方法用于将字符串中的所有小写字母转换为大写字母。
-4.lower() 方法用于将字符串中的所有大写字母转换为小写字母。
+1.upper() 方法用于将字符串中的所有小写字母转换为大写字母。
+2.lower() 方法用于将字符串中的所有大写字母转换为小写字母。
+3.title() 方法用于将字符串中每个单词的首字母转为大写，其他字母全部转为小写。
+4.capitalize() 将字符串的第一个字母变成大写,其他字母变小写。
+
 注意：
 这几张方法都不会改变原始字符串，字符串是不可变的
  
 """
-# str = "hello world ABC"
-# print(str.capitalize())
-# print(str.title())
+# str = "hello WORLD"
 # print(str.upper())
 # print(str.lower())
+# print(str.title())
+# print(str.capitalize())
 
 
 """
