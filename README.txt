@@ -1,10 +1,9 @@
 目录：
-python_basics   基础（关键字，流程控制，异常处理）
+python_basics   基础（关键字，流程控制，异常处理,运算符操作）
 python_data_type    基础数据类型（数字，字符串，列表，元组，集合，字典，序列）
-python_functions    内置函数
+python_builtins_functions    内置函数
 pythhon_object  面向对象（类，方法，属性，变量等）
-运算符
-转义字符
+
 正则表达式
 python_iter     迭代器，生成器
 python_decorator    装饰器
