@@ -1,12 +1,13 @@
 """
-正则表达式 - 字符匹配
+正则表达式 - 语法
 
 """
-str1 = 'this is normal string'
-str2 = 'this is\n normal string'    # \n 换行
-str3 = 'this is\t normal string'    # \t 相当于tab 键
-str4 = r'this is\n normal string'   # r 不转义字符
-print(str1)
-print(str2)
-print(str3)
-print(str4)
+# 匹配1-100内的任意数字
+import random
+import re
+
+s = str(random.randint(1, 100))
+print(s)
+ret = re.match(r'(100|[1-9]\d{0,1})$',s)
+print(ret.group())
+

@@ -2,10 +2,9 @@
 高优意图设置新增接口测试
 
 """
+import unittest
 import requests
 import get_cookies
-import unittest
-
 
 
 class TestIntention(unittest.TestCase):
@@ -13,22 +12,34 @@ class TestIntention(unittest.TestCase):
     高优意图设置接口测试用例
 
     """
-    # 获取cookies
-    my_cookies = get_cookies.get_my_cookies()
+    @classmethod
+    def setUpClass(cls) -> None:
+        """
+        方案一：获取cookies
+        方案二：登录成功，并保存session会话状态
+        """
+        # cls.my_cookies = get_cookies.get_cookies()
+        cls.my_header = get_cookies.get_cookies()
+        print(cls.my_header)
+
+    @classmethod
+    def tearDownClass(cls) -> None:
+        """
+        登出操作
+        """
+        pass
 
     def test_find_intention(self):
-        # 意图列表查询
-        base_url = "http://sit-saas.chinatopcredit.com/raptor-web/jargon/findIntentionPriority/467"
+        # 高优意图列表查询
+        find_url = "http://sit-saas.chinatopcredit.com/raptor-web/jargon/findIntentionPriority/467"
         params = {
             "name" : "",
             "priority" : 0,
             "pageNum" : 1,
             "pageSize" : 10
         }
-
-        r = requests.get(base_url,params,cookies=self.my_cookies)
+        r = requests.get(url=find_url,params=params,headers=self.my_header)
         assert r.status_code == 200
-
 
     def test_update_intention(self):
         # 编辑意图优先级
@@ -38,7 +49,7 @@ class TestIntention(unittest.TestCase):
             'priority':1
         }
 
-        r = requests.post(url=update_url,json=body,cookies=self.my_cookies)
+        r = requests.post(url=update_url,json=body)
         assert r.status_code == 200
 
 

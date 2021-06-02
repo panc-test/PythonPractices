@@ -200,13 +200,13 @@ get和setdefault的区别，get方法不会修改原始的字典，setdefault方
 # print(dict1)
 
 
-a = {'数学': 95, '语文': 89, '英语': 90}
-#key存在
-print(a.setdefault('数学'))
-print(a)
-#key不存在，不指定默认值
-print(a.setdefault('物理'))
-print(a)
-#key不存在，指定默认值
-print(a.setdefault('化学', 94))
-print(a)
+# a = {'数学': 95, '语文': 89, '英语': 90}
+# #key存在
+# print(a.setdefault('数学'))
+# print(a)
+# #key不存在，不指定默认值
+# print(a.setdefault('物理'))
+# print(a)
+# #key不存在，指定默认值
+# print(a.setdefault('化学', 94))
+# print(a)
