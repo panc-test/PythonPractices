@@ -29,8 +29,8 @@ print(closure(3))
 #
 #     return math_base
 #
-# square = math_power(2) # 计算一个数的平方
-# cube = math_power(3) # 计算一个数的立方
+# square = math_power(2)  # 计算 2 的平方
+# print(square(2))
 #
-# print(square(2))  # 计算 2 的平方
-# print(cube(2)) # 计算 2 的立方
+# cube = math_power(3)    # 计算 2 的立方
+# print(cube(2))

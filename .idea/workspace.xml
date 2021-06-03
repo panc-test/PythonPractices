@@ -5,20 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea65de74-0375-4d9d-bb99-09e9e0f06816" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python_algorithm/time_complexity_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_basics/escape_character_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_script/get_file_cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_handling/fileinput_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_handling/linecache_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_handling/open_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_handling/pickle_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_basics/regular_expression_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/regular_expression_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/abs_pow_round_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_builtins_functions/abs_pow_round_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_data_type/dict_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_data_type/dict_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_module/copy_module/copy_and_deepcopy_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_module/copy_module/copy_deepcopy_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_module/copy_module/copy_deepcopy_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_module/json_module/json_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_module/json_module/json_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_module/re_module/re_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_module/re_module/re_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_script/cookies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/work_script/cookies.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_script/get_cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/work_script/get_cookies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_script/rpt_intention.py" beforeDir="false" afterPath="$PROJECT_DIR$/work_script/rpt_intention.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_algorithm/time_complexity_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_algorithm/time_complexity_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_basics/args_kwargs_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/args_kwargs_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/abs_pow_round_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/abs_pow_round_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/all_any_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/all_any_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/bin_oct_hex_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/bin_oct_hex_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/bool_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/bool_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/chr_ord_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/chr_ord_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/dir_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/dir_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/divmod_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/divmod_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/enumerate_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/enumerate_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/eval_exec_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/eval_exec_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/exit_quit_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/exit_quit_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/hasattr_getattr_setattr_delattr_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/hasattr_getattr_setattr_delattr_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/help_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/help_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/id_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/id_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/int_float_complex_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/int_float_complex_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/isinstance_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/isinstance_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/len_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/len_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/map_filter_lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/map_filter_lambda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/max_min_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/max_min_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/open_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/open_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/set_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/set_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/sorted_reversed_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/sorted_reversed_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/str_repr_ascii_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/str_repr_ascii_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_builtins_functions/test_datas/test_exec.txt" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/test_datas/test_exec.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_decorator/closure_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_decorator/closure_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_iter/iter_test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/iter_yield/iter_test01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_iter/iter_test02.py" beforeDir="false" afterPath="$PROJECT_DIR$/iter_yield/iter_test02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_iter/yield_next.py" beforeDir="false" afterPath="$PROJECT_DIR$/iter_yield/yield_next.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_iter/yield_send.py" beforeDir="false" afterPath="$PROJECT_DIR$/iter_yield/yield_send.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +77,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../语音机器人/lvwenhui/raptor" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\github-projects\python-test\file_handling" />
       <recent name="E:\github-projects\python-test\python_module\random_module" />
       <recent name="E:\github-projects\python-test\python_module" />
       <recent name="E:\github-projects\python-test\python_object" />
       <recent name="E:\github-projects\python-test\python_basics" />
-      <recent name="E:\github-projects\python-test\python_module\copy_module" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.copy_deepcopy_test">
-    <configuration name="copy_and_deepcopy_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.iter_test02">
+    <configuration name="fileinput_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,53 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_module/copy_module" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/file_handling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_module/copy_module/copy_and_deepcopy_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="copy_deepcopy_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_module/copy_module" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_module/copy_module/copy_deepcopy_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="get_cookies (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work_script" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work_script/get_cookies.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_handling/fileinput_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_cookies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="iter_test01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work_script" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iter_yield" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\github-projects\python-test\work_script\get_cookies.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iter_yield/iter_test01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,27 +154,76 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in rpt_intention.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="iter_test02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work_script" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iter_yield" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/work_script/rpt_intention.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iter_yield/iter_test02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="linecache_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/file_handling" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_handling/linecache_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="open_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/file_handling" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_handling/open_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.copy_deepcopy_test" />
-        <item itemvalue="Python.copy_and_deepcopy_test" />
-        <item itemvalue="Python tests.Unittests in rpt_intention.py" />
-        <item itemvalue="Python.get_cookies (1)" />
-        <item itemvalue="Python.get_cookies" />
+        <item itemvalue="Python.iter_test02" />
+        <item itemvalue="Python.iter_test01" />
+        <item itemvalue="Python.linecache_test" />
+        <item itemvalue="Python.fileinput_test (1)" />
+        <item itemvalue="Python.open_test" />
       </list>
     </recent_temporary>
   </component>

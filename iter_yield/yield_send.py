@@ -9,20 +9,20 @@ send() 方法会返回生成器所产生的下一个值，或者如果生成器�
 
 """
 
+
 def myList(num):  # 定义生成器
 
     now = 0
     while now < num:
         val = yield now
-        if val is None:     #val 为什么一直是 None
+        if val is None:
             now = now + 1
         else:
             print("xxxxxxxx")
 
 
 my_list = myList(5)
-print(my_list.__next__())   #__next__()不能传递特定的值，只能传递None进去,所以if语句一直成立
+print(my_list.__next__())  # __next__()不能传递特定的值，只能传递None进去,所以if语句一直成立
 print(my_list.__next__())
 my_list.send(8)  # send()可以传递yield表达式的值进去，将8传递给val，这个时候val= 8
 print(my_list.__next__())
-

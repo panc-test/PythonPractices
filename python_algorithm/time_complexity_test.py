@@ -1,9 +1,11 @@
 """
+算法-时间复杂度
 a+b+c=1000，且 a^2+b^2=c^2（a,b,c 为自然数），求出所有a、b、c可能的组合。
 https://www.cnblogs.com/Dr-wei/p/11857631.html
 
 """
 import time
+
 
 def get_time1():
     """
@@ -13,10 +15,10 @@ def get_time1():
     for a in range(1001):
         for b in range(1001):
             for c in range(1001):
-                if a**2 + b**2 == c**2 and a + b + c == 1000:
-                    print(a,b,c)
+                if a ** 2 + b ** 2 == c ** 2 and a + b + c == 1000:
+                    print(a, b, c)
     end_time = time.time()
-    print("用时time=",end_time-start_time)
+    print("用时time=", end_time - start_time)
 
 
 def get_time2():
@@ -27,10 +29,11 @@ def get_time2():
     for a in range(1001):
         for b in range(1001):
             c = 1000 - a - b
-            if a**2 + b**2 == c**2:
-                print(a,b,c)
+            if a ** 2 + b ** 2 == c ** 2:
+                print(a, b, c)
     end_time = time.time()
-    print("用时time=",end_time-start_time)
+    print("用时time=", end_time - start_time)
+
 
 if __name__ == '__main__':
     get_time1()

@@ -6,29 +6,29 @@
 
 """
 
-#自定义可迭代的类
+
+# 自定义迭代器
 class MyIter:
 
-  def __init__(self, start, end):
-    self.count = start
-    self.end = end
-  #返回一个迭代器
-  def __iter__(self):
-    return self
-  #定义迭代规则
-  def __next__(self):
-    if self.count < self.end:
-      result = self.count
-      self.count += 1
-      return result
-    else:
-      raise StopIteration
+    def __init__(self, start, end):
+        self.start = start
+        self.end = end
 
-#实例化一个迭代器
-it = MyIter(1, 10)
-print(type(it))
+    # 返回一个迭代器
+    def __iter__(self):
+        return self
 
-#for 循环遍历迭代器
+    # 定义迭代规则
+    def __next__(self):
+        if self.start < self.end:
+            self.start += 1
+            return self.start
+        else:
+            raise StopIteration
+
+
+# 实例化一个迭代器
+it = MyIter(5, 10)
+# for 循环遍历迭代器
 for i in it:
-  print(i)
-
+    print(i)
