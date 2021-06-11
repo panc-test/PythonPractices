@@ -1,33 +1,46 @@
 """
-*args--接收列表，元组
-**kwargs---接收字典
+*args   元组
+**kwargs    字典
 
 """
 
-tuple = (1, 2, 3)
-dicts = {'username': 'test', 'password': '123456', 'repass': '123456'}
-list1 = [100, 200, 300]
-list2 = [{'username': 'test1', 'password': '123456', 'repass': '123456'},
-         {'username': 'test2', 'password': '222222', 'repass': '222222'},
-         {'username': 'test3', 'password': '666666', 'repass': '666666'}]
+
+# #  只有*args
+# def fun1(argument, *args):
+#     print('argument = ', argument)
+#     print('args类型：', type(args))
+#     print(args)
+#
+#
+# # 方法1
+# fun1(1, 2, 3, 4)
+# # 方法2
+# tuple = (1, 2, 3, 4)
+# fun1(*tuple)  # 解包
 
 
-def fun_dicts(username, password, repass):
-    print('username=', username)
-    print('password=', password)
-    print('repass=', repass)
+# # 只有**kwargs
+# def fun2(argument, **kwargs):
+#     print('argument = ', argument)
+#     print('kwargs类型：', type(kwargs))
+#     print(kwargs)
+#
+#
+# fun2(1, a=1, b=2)
+# dict = {'a': 1, 'b': 2}
+# fun2(1, **dict)
 
 
-def fun(a, b, c):
-    print('a=', a)
-    print('b=', b)
-    print('c=', c)
+# 包含*args和**kwargs
+def fun3(argument, *args, **kwargs):
+    print('argument = ', argument)
+    print('args类型：', type(args))
+    print(args)
+    print('kwargs类型：', type(kwargs))
+    print(kwargs)
 
 
-# fun(*tuple)
-# print('---------------------------')
-# fun(*list1)
-# print('---------------------------')
-# fun_dicts(**dicts)
-# print('---------------------------')
-fun(*list2)
+fun3(1, 2, 3, 4, a=1, b=2)
+tuple = (1, 2, 3, 4)
+dict = {'a': 1, 'b': 2}
+fun3(1,*tuple, **dict)

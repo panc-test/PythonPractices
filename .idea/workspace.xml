@@ -5,43 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea65de74-0375-4d9d-bb99-09e9e0f06816" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_handling/fileinput_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_handling/linecache_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_handling/open_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_handling/pickle_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context_manager/context_manager_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context_manager/contextlib_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context_manager/mytest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context_manager/with_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_basics/comprehensions_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_basics/traceback_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_module/pymysql_module/pymysql_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_script/file1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_script/with_open_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_algorithm/time_complexity_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_algorithm/time_complexity_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iter_yield/iter_test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/iterator_generator/iter_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iter_yield/iter_test02.py" beforeDir="false" afterPath="$PROJECT_DIR$/iterator_generator/iterator_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iter_yield/yield_next.py" beforeDir="false" afterPath="$PROJECT_DIR$/iterator_generator/generator_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iter_yield/yield_send.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest_demo/assets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest_demo/pytest.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest_demo/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest_demo/test_sample.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/python_basics/args_kwargs_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/args_kwargs_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/abs_pow_round_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/abs_pow_round_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/all_any_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/all_any_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/bin_oct_hex_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/bin_oct_hex_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/bool_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/bool_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/chr_ord_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/chr_ord_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/dir_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/dir_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/divmod_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/divmod_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/enumerate_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/enumerate_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/eval_exec_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/eval_exec_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/exit_quit_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/exit_quit_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/hasattr_getattr_setattr_delattr_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/hasattr_getattr_setattr_delattr_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/help_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/help_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/id_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/id_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/int_float_complex_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/int_float_complex_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/isinstance_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/isinstance_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/len_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/len_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/map_filter_lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/map_filter_lambda.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/max_min_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/max_min_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/open_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/open_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/set_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/set_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/sorted_reversed_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/sorted_reversed_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/str_repr_ascii_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/str_repr_ascii_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_builtins_functions/test_datas/test_exec.txt" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/test_datas/test_exec.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_decorator/closure_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_decorator/closure_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_iter/iter_test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/iter_yield/iter_test01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_iter/iter_test02.py" beforeDir="false" afterPath="$PROJECT_DIR$/iter_yield/iter_test02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_iter/yield_next.py" beforeDir="false" afterPath="$PROJECT_DIR$/iter_yield/yield_next.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_iter/yield_send.py" beforeDir="false" afterPath="$PROJECT_DIR$/iter_yield/yield_send.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_data_type/dict_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_data_type/dict_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_data_type/list_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_data_type/list_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_data_type/number_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_data_type/number_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_data_type/sequence_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_data_type/sequence_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_data_type/set_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_data_type/set_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_data_type/str_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_data_type/str_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_data_type/tuple_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_data_type/tuple_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_decorator/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_module/pytest_module/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/python_module/pytest_module/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_module/pytest_module/pytest_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_module/pytest_module/pytest_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_object/object_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_object/object_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_script/for_test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_script/for_test01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../语音机器人/lvwenhui/raptor/testcase/login/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../语音机器人/lvwenhui/raptor/testcase/login/test_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +52,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -65,6 +67,13 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/context_manager/mytest.txt" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/context_manager/context_manager_test.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1sNXaoLRDL7aKpK6qDvaLrDf60U" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -79,19 +88,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../语音机器人/lvwenhui/raptor" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\github-projects\python-test\python_basics" />
       <recent name="E:\github-projects\python-test\file_handling" />
       <recent name="E:\github-projects\python-test\python_module\random_module" />
       <recent name="E:\github-projects\python-test\python_module" />
       <recent name="E:\github-projects\python-test\python_object" />
-      <recent name="E:\github-projects\python-test\python_basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.iter_test02">
-    <configuration name="fileinput_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.pymysql_test">
+    <configuration name="generator_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,11 +111,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/file_handling" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iterator_generator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_handling/fileinput_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iterator_generator/generator_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_cookies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pymysql_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,11 +132,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work_script" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_module/pymysql_module" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\github-projects\python-test\work_script\get_cookies.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_module/pymysql_module/pymysql_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="iter_test01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,11 +153,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iter_yield" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_module/pytest_module" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iter_yield/iter_test01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_module/pytest_module/pytest_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="iter_test02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="traceback_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,11 +174,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iter_yield" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iter_yield/iter_test02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basics/traceback_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,7 +187,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="linecache_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="traceback_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,32 +195,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/file_handling" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_handling/linecache_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="open_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/file_handling" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_handling/open_test.py" />
+      <option name="SCRIPT_NAME" value="E:\github-projects\python-test\python_basics\traceback_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.iter_test02" />
-        <item itemvalue="Python.iter_test01" />
-        <item itemvalue="Python.linecache_test" />
-        <item itemvalue="Python.fileinput_test (1)" />
-        <item itemvalue="Python.open_test" />
+        <item itemvalue="Python.pymysql_test" />
+        <item itemvalue="Python.traceback_test (1)" />
+        <item itemvalue="Python.traceback_test" />
+        <item itemvalue="Python.pytest_test" />
+        <item itemvalue="Python.generator_test" />
       </list>
     </recent_temporary>
   </component>

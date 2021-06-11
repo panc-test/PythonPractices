@@ -23,7 +23,7 @@ python基础数据类型 ——列表 list(可变，有序的，可重复的)
 # print(list2)
 # print(list3)
 
-#推导式
+# 推导式
 # list1 = [i for i in range(5)]
 # print(list1)
 
@@ -62,7 +62,6 @@ python基础数据类型 ——列表 list(可变，有序的，可重复的)
 # del list2[1:5]
 # print(list1)
 # print(list2)
-
 
 
 """
