@@ -244,9 +244,9 @@ join() 方法用于将序列中的元素以指定的字符连接生成一个新�
 语法：str.join(sequence)
 
 """
-# seq = ['www','runoob','com']
-# url = '.'.join(seq)
-# print(url)
+seq = ['www','runoob','com']
+url = '.'.join(seq)
+print(url)
 
 
 """

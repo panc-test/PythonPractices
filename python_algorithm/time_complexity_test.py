@@ -36,5 +36,4 @@ def get_time2():
 
 
 if __name__ == '__main__':
-    get_time1()
-    # get_time2()
+    get_time2()
