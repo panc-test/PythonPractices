@@ -5,44 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea65de74-0375-4d9d-bb99-09e9e0f06816" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/closure_decorator/decorator_buildin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/closure_decorator/decorator_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_module/pymysql_module/mysql_connector_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_module/turtle_module/turtle_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_scripts/test02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_basics/closure_decorator/decorator_builtins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_basics/closure_decorator/decorator_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic_data_type/str_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_data_type/str_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builtins_functions/dir_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/dir_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builtins_functions/divmod_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/builtins_functions/divmod_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_algorithm/time_complexity_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/time_complexity_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_decorator/closure_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/closure_decorator/closure_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_decorator/decorator_classmethod.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_decorator/decorator_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/closure_decorator/decorator_log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_decorator/decorator_property.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_decorator/decorator_staticmethod.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_decorator/decorator_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_module/pymysql_module/pymysql_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_module/pymysql_module/pymysql_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_module/pymysql_module/with_pymysql_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_module/pymysql_module/with_pymysql_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_module/pytest_module/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/python_module/pytest_module/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_script/check_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/check_str.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_script/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/file1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_script/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/file2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_script/for_test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/for_test01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_script/list_test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/test01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_script/list_test02.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_script/readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_script/rob.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/rob.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_script/shuixianhuashu_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/shuixianhuashu_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_script/test_threading.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/test_threading.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_script/with_open_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/with_open_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest_demo/report/breport.html" beforeDir="false" afterPath="$PROJECT_DIR$/unittest_demo/report/breport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest_demo/run_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittest_demo/run_report.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_script/data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_script/get_cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/get_cookies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_script/get_testdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/get_testdata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_basics/builtins_functions/str_repr_ascii_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/builtins_functions/str_repr_ascii_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_basics/closure_decorator/decorator_buildin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_basics/object/object_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/object/object_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +44,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/context_manager/context_manager_test.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/context_manager/mytest.txt" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/python_basics/context_manager/context_manager_test.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/python_basics/context_manager/mytest.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="1" />
@@ -103,15 +72,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\057776\PycharmProjects\python-test\python_basics" />
       <recent name="C:\Users\057776\PycharmProjects\python-test\scripts" />
       <recent name="E:\语音机器人\passart-runner-api" />
       <recent name="E:\github-projects\python-test\python_basics" />
       <recent name="E:\github-projects\python-test\file_handling" />
-      <recent name="E:\github-projects\python-test\python_module\random_module" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test02">
-    <configuration name="closure_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.decorator_builtins (1)">
+    <configuration name="decorator_builtins (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,11 +88,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_decorator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basics/closure_decorator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_decorator/closure_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basics/closure_decorator/decorator_builtins.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="decorator_log" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="decorator_builtins" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,11 +109,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_decorator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basics/closure_decorator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_decorator/decorator_log.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\057776\PycharmProjects\python-test\python_basics\closure_decorator\decorator_builtins.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="decorator_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="decorator_module" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,11 +130,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_decorator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basics/closure_decorator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_decorator/decorator_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basics/closure_decorator/decorator_module.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.decorator_builtins (1)" />
+        <item itemvalue="Python.decorator_builtins" />
+        <item itemvalue="Python.decorator_module" />
         <item itemvalue="Python.test02" />
         <item itemvalue="Python.scratch_4" />
-        <item itemvalue="Python.decorator_log" />
-        <item itemvalue="Python.decorator_test" />
-        <item itemvalue="Python.closure_test" />
       </list>
     </recent_temporary>
   </component>

@@ -6,7 +6,7 @@ ascii() 输出ASCII格式的字符串，如果对象包含非 ASCII 字符，则
 
 """
 obj = 'aaaaaaa'
-print(obj,type(obj))
-print("str()：",str(obj),type(str(obj)))
-print("repr()：",repr(obj),type(repr(obj)))
-print("ascii():",ascii(obj),type(ascii(obj)))
+print(obj, type(obj))
+print("str()：", str(obj), type(str(obj)))
+print("repr()：", repr(obj), type(repr(obj)))
+print("ascii():", ascii(obj), type(ascii(obj)))
