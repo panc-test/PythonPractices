@@ -8,18 +8,22 @@ python 闭包
 3.外部函数返回值是内部函数
 
 """
-def outer(x):   # 外部函数
-    a = 1   # 外部函数局部变量
-    def inner(y):   #内部函数
+
+
+def outer(x):  # 外部函数
+    a = 1  # 外部函数局部变量
+
+    def inner(y):  # 内部函数
         nonlocal x
-        x = x+a
+        x = x + a
         print(x)
-        return x+y
-    return inner    #外函数返回值是内函数
+        return x + y
+
+    return inner  # 外函数返回值是内函数
+
 
 closure = outer(1)
 print(closure(3))
-
 
 # #使用闭包计算一个数的 n 次幂
 # def math_power(power):

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://E:/语音机器人/passart-runner-api/.idea/passart-runner-api.iml" filepath="E:/语音机器人/passart-runner-api/.idea/passart-runner-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/python-test.iml" filepath="$PROJECT_DIR$/.idea/python-test.iml" />
     </modules>
   </component>

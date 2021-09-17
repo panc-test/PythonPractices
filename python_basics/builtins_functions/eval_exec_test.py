@@ -15,7 +15,7 @@ exec('print("hello world")')
 # print(new_b)
 
 
-f = open('./test_datas/test_exec.txt','r')
+f = open('test_datas/test_exec.txt', 'r')
 s = f.read()
 exec(s)
 

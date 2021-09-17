@@ -31,15 +31,15 @@ class DB():
 if __name__ == '__main__':
     # 数据库配置
     config = {
-        'host': 'rm-uf6761kt70m851725.mysql.rds.aliyuncs.com',
-        'user': 'v40g0dlkpmn5it9l',
-        'password': 'JaCAy3ibN3@+w$iY(9DV8r4#pD8kdzOI',
-        'database': 'raptor_sit',
-        'port': 3306
+        'host': 'dbtest2.xhdev.xyz',
+        'database': 'loki',
+        'port': 3306,
+        'user': 'panchao01',
+        'password': '4GL9&i*Q@wP'
     }
     # 使用with上下文管理器操作数据库
     with DB(config=config) as db:
-        sql = "SELECT * FROM rpt_intention WHERE jargon_id = '887'"
+        sql = "select * from loki.loan_credit_info t where t.create_time like '2021-09-09%' order by t.create_time desc;"
         db.execute(sql)
         print(db)
-        print(db.fetchall())
+        print(db.fetchone())

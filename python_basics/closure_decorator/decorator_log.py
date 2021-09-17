@@ -11,7 +11,7 @@ logger = logging.getLogger()
 logger.setLevel("DEBUG")
 
 # 设置日志格式
-formatter=logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 
 # 设置日志去向，输出到控制台
 handler = logging.StreamHandler()
@@ -26,15 +26,16 @@ logger.addHandler(handler)
 def log_info(func):
     "日志装饰器"
 
-    def wrapper(*args,**kwargs):
-        logger.debug(func.__name__) # 控制台打印输出日志
-        return func(*args,**kwargs)
+    def wrapper(*args, **kwargs):
+        logger.debug('{} is running'.format(func.__name__))  # 控制台打印输出日志
+        func(*args, **kwargs)
 
     return wrapper
 
+
 @log_info
-def func(a,b):
-    return a + b
+def test():
+    print('logs')
 
 
-func(1,2)
+test()

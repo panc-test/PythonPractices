@@ -4,7 +4,7 @@
 """
 
 import unittest
-from HTMLTestRunner import HTMLTestRunner
+# from HTMLTestRunner import HTMLTestRunner
 from BeautifulReport import BeautifulReport
 
 

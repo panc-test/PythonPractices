@@ -14,5 +14,5 @@
 # f.close()
 
 
-with open('file.txt','r') as f:
+with open('file.txt', 'r') as f:
     print(f.read())

@@ -8,5 +8,5 @@ import linecache
 print(linecache.getline(linecache.__file__,3))
 
 # 读取文件
-print(linecache.getline(filename='file.txt',lineno=3))
+print(linecache.getline(filename='file.txt', lineno=3))
 print(linecache.getlines(filename='file.txt'))

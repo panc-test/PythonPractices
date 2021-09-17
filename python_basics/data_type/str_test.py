@@ -231,7 +231,6 @@ seq = ['www','runoob','com']
 url = '.'.join(seq)
 print(url)
 
-
 """
 分割字符串：
 split() 通过指定分隔符对字符串进行切片，返回分割后的字符串列表。
