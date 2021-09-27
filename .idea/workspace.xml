@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea65de74-0375-4d9d-bb99-09e9e0f06816" name="Default Changelist" comment="2021-09-18">
-      <change afterPath="$PROJECT_DIR$/../api-test-demo/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api-test-demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api-test-demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../api-test-demo/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api-test-demo/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api-test-demo/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api-test-demo/report/cnode测试报告.html" beforeDir="false" afterPath="$PROJECT_DIR$/../api-test-demo/report/cnode测试报告.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api-test-demo/testcases/test_create_topics.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api-test-demo/testcases/test_create_topics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api-test-demo/testcases/test_topic1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api-test-demo/testcases/test_topic1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api-test-demo/testcases/test_topic2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api-test-demo/testcases/test_topic2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api-test-demo/testcases/test_topic3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api-test-demo/testcases/test_topic3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api-test-demo/testcases/test_topic4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api-test-demo/testcases/test_topic4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api-test-demo/utils/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api-test-demo/utils/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api-test-demo/utils/do_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api-test-demo/utils/do_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api-test-demo/utils/do_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api-test-demo/utils/do_request.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_basics/builtins_functions/function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_basics/format_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/format_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +31,7 @@
         <entry key="$PROJECT_DIR$" value="release" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../api-test-demo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -67,12 +56,12 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowStructure.ShowToolbar" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="E:/语音机器人/passart-runner-api" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -90,29 +79,8 @@
       <recent name="E:\github-projects\python-test\python_basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="api-test-demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../api-test-demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../api-test-demo/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="format_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,11 +88,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytest_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytest_demo/run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basics/format_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,8 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.run" />
+        <item itemvalue="Python.format_test" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +139,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631952492091</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2021-09-18">
+      <created>1631953666407</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631953666407</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2021-09-18">
+      <created>1631953731256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631953731256</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../api-test-demo/.idea/api-test-demo.iml" filepath="$PROJECT_DIR$/../api-test-demo/.idea/api-test-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/python-test.iml" filepath="$PROJECT_DIR$/.idea/python-test.iml" />
     </modules>
   </component>
