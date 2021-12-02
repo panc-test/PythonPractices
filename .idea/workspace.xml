@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea65de74-0375-4d9d-bb99-09e9e0f06816" name="Default Changelist" comment="2021-09-18">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_basics/builtins_functions/function.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_basics/format_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/format_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_basics/context_manager/context_manager_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/context_manager/context_manager_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_basics/context_manager/contextlib_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/context_manager/contextlib_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_basics/context_manager/mytest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/context_manager/mytest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +22,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="release" />
+  </component>
   <component name="Git.Settings">
     <option name="PUSH_UPDATE_ALL_ROOTS" value="false" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="release" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,7 +66,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="E:/语音机器人/passart-runner-api" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +80,49 @@
       <recent name="E:\github-projects\python-test\python_basics" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.contextlib_test">
+    <configuration name="context_manager_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basics/context_manager" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basics/context_manager/context_manager_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="contextlib_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basics/context_manager" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basics/context_manager/contextlib_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="format_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,11 +162,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.decorator_builtins (1)" />
-        <item itemvalue="Python.decorator_builtins" />
-        <item itemvalue="Python.decorator_module" />
-        <item itemvalue="Python.test02" />
-        <item itemvalue="Python.scratch_4" />
+        <item itemvalue="Python.contextlib_test" />
+        <item itemvalue="Python.context_manager_test" />
+        <item itemvalue="Python.format_test" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +228,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2021-09-18" />
     <option name="LAST_COMMIT_MESSAGE" value="2021-09-18" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

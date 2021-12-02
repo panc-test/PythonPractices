@@ -22,7 +22,6 @@ def open_func(file_name):
 
 
 with open_func('mytest.txt') as f:
-    print(f)
     for i in f:
         1/0
         print(i)
