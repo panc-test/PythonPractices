@@ -5,7 +5,7 @@ enumerate(iterable,start=0)
 参数start指的是开始索引
 
 """
-seq = ['one', 'two', 'three','four']
-
+seq = ['one', 'two', 'three', 'four']
+print(enumerate(seq))
 print(list(enumerate(seq)))
 print(list(enumerate(seq, 5)))

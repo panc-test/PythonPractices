@@ -4,11 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea65de74-0375-4d9d-bb99-09e9e0f06816" name="Default Changelist" comment="2021-09-18">
-      <change afterPath="$PROJECT_DIR$/python_basics/function_parameter/args_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_basics/function_parameter/kwargs_test.py" afterDir="false" />
+    <list default="true" id="ea65de74-0375-4d9d-bb99-09e9e0f06816" name="Default Changelist" comment="可变参数*args和**kwargs">
+      <change afterPath="$PROJECT_DIR$/python_basics/closure_test/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_basics/data_type/str_test/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_module/sys_test/sys_test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_framework/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_framework/pytest_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_framework/selenium_demo/selenium_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_basics/args_kwargs_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/function_parameter/args_kwargs_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest_demo/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_framework/pytest_demo/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_basics/builtins_functions/enumerate_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/builtins_functions/enumerate_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_basics/closure_decorator/closure_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/closure_test/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_basics/closure_decorator/decorator_builtins.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/decorator_test/decorator_builtins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_basics/closure_decorator/decorator_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/decorator_test/decorator_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_basics/closure_decorator/decorator_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/decorator_test/decorator_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_basics/closure_decorator/decorator_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/decorator_test/decorator_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_basics/data_type/str_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_basics/data_type/str_test/str_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest_demo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_framework/unittest_demo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest_demo/report/breport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_framework/unittest_demo/report/breport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest_demo/report/report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_framework/unittest_demo/report/report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest_demo/report/suite_report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_framework/unittest_demo/report/suite_report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest_demo/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_framework/unittest_demo/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest_demo/run_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_framework/unittest_demo/run_report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest_demo/run_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_framework/unittest_demo/run_suite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest_demo/test_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_framework/unittest_demo/test_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest_demo/testcases/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_framework/unittest_demo/testcases/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest_demo/testcases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_framework/unittest_demo/testcases/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest_demo/testcases/test_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_framework/unittest_demo/testcases/test_register.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,78 +96,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\057776\PycharmProjects\python-test\python_basics\function_parameter" />
-      <recent name="C:\Users\057776\PycharmProjects\python-test\python_advanced" />
-      <recent name="C:\Users\057776\PycharmProjects\python-test\python_basics" />
-      <recent name="C:\Users\057776\PycharmProjects\python-test\scripts" />
-      <recent name="E:\语音机器人\passart-runner-api" />
+      <recent name="C:\Users\057776\PycharmProjects\python-test\test_framework" />
+      <recent name="C:\Users\057776\PycharmProjects\python-test" />
+      <recent name="C:\Users\057776\PycharmProjects\python-test\python_module\sys_test" />
+      <recent name="C:\Users\057776\PycharmProjects\python-test\python_basics\data_type\str_test" />
+      <recent name="C:\Users\057776\PycharmProjects\python-test\python_basics\closure_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.args_kwargs_test">
-    <configuration name="args_kwargs_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basics/function_parameter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basics/function_parameter/args_kwargs_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="args_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basics/function_parameter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basics/function_parameter/args_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="kwargs_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basics/function_parameter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basics/function_parameter/kwargs_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.say">
+    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,7 +116,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\057776\PycharmProjects\python-test\hello.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="with_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="say" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,11 +133,116 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basics/context_manager" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/say.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sys_test1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_module/sys_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basics/context_manager/with_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_module/sys_test/sys_test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sys_test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_module" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\057776\PycharmProjects\python-test\python_module\sys_test\sys_test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sys_test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_module/sys_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\057776\PycharmProjects\python-test\python_module\sys_test\sys_test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basics/data_type/str_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basics/data_type/str_test/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_module" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\057776\PycharmProjects\python-test\python_module\sys_test\test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,11 +269,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.args_kwargs_test" />
-        <item itemvalue="Python.args_test" />
-        <item itemvalue="Python.kwargs_test" />
-        <item itemvalue="Python.scratch" />
-        <item itemvalue="Python.with_test" />
+        <item itemvalue="Python.say" />
+        <item itemvalue="Python.sys_test1 (1)" />
+        <item itemvalue="Python.sys_test1" />
+        <item itemvalue="Python.sys_test1" />
+        <item itemvalue="Python.hello" />
       </list>
     </recent_temporary>
   </component>

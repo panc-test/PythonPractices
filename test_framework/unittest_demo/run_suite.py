@@ -7,10 +7,8 @@ from os.path import abspath,dirname
 sys.path.insert(0,dirname(dirname(abspath(__file__))))
 
 import unittest
-import unittest_demo.testcases.test_register
-import unittest_demo.testcases.test_login
-from unittest_demo.testcases.test_register import TestRegister
-from unittest_demo.testcases.test_login import TestLogin
+from test_framework.unittest_demo.testcases.test_register import TestRegister
+from test_framework.unittest_demo.testcases import TestLogin
 
 
 #加载单个测试用例
@@ -41,7 +39,7 @@ def suite3():
 def suite4():
     suite = unittest.TestSuite()
     loader = unittest.TestLoader()       #加载器
-    tests = loader.loadTestsFromModule(unittest_demo.testcases.test_login)
+    tests = loader.loadTestsFromModule(test_framework.unittest_demo.testcases.test_login)
     suite.addTests(tests)
     return suite
 
@@ -65,14 +63,14 @@ def suite6():
 def suite7():
     suite = unittest.TestSuite()
     loader = unittest.TestLoader()       #加载器
-    tests = loader.discover(start_dir='./testcases',pattern='test*.py')
+    tests = loader.discover(start_dir='testcases', pattern='test*.py')
     suite.addTests(tests)
     return suite
 
 # 运行测试套件,生成测试报告
 if __name__ == '__main__':
     suite = suite4()
-    with open(file='./report/suite_report.txt',mode='a') as file:
+    with open(file='report/suite_report.txt', mode='a') as file:
         runner = unittest.TextTestRunner(verbosity=2,stream=file)
         runner.run(suite)
         file.close()

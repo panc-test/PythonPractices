@@ -11,7 +11,7 @@ from BeautifulReport import BeautifulReport
 def suite():
     suite = unittest.TestSuite()
     loader = unittest.TestLoader()
-    tests = loader.discover(start_dir='./testcases',pattern='test*.py')
+    tests = loader.discover(start_dir='testcases', pattern='test*.py')
     suite.addTests(tests)
     return suite
 
@@ -19,7 +19,7 @@ def suite():
 if __name__ == '__main__':
     suite=suite()
     result=BeautifulReport(suite)
-    result.report(report_dir='./report',filename='breport.html',description='注册和登录功能测试报告')
+    result.report(report_dir='report', filename='breport.html', description='注册和登录功能测试报告')
 
 # # TextTestRunner
 # if __name__ == '__main__':
